@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html id="tema" class="claro">
+    <head>
+        <title>Our Site</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="logo"><img src="img/logo.jpg"/></div>
+            <a href="#"><div class="elemento">Home</div></a>
+            <a href="#"><div class="elemento">About Us</div></a>
+            <a href="#"><div class="elemento">Services</div></a>
+            <a href="#"><div class="elemento">Contact</div></a>
+        </nav>
+        <div class="selector">
+            <a onclick="myFunctionClaro()">Claro</a> | <a onclick="myFunctionOscuro()">Oscuro</a>
+        </div>
+        <div class="cuerpo">
+            <div>
+                <h2>Column 1</h2>
+                <img src="img/imagen1.jpg" style="width:100%;" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet efficitur enim, a finibus augue. Nunc vehicula diam nisi, sit amet iaculis turpis faucibus ac. In sed quam in nunc auctor bibendum a eu turpis. Pellentesque convallis tincidunt pulvinar. Nam ut varius neque, ac aliquet augue. Aliquam tristique consequat faucibus. Sed sit amet rhoncus ex, in posuere lacus. Morbi sodales at ligula a eleifend. Etiam ac magna ac est consequat ultrices id consectetur lacus. Donec luctus, erat vel dignissim semper, tellus ante dapibus ipsum, a sollicitudin mi odio at magna. Sed euismod ipsum ornare felis rhoncus viverra. Nulla vitae metus iaculis, aliquet odio ut, dapibus enim. Praesent vehicula blandit ultricies. Aenean sed ullamcorper justo, eget volutpat libero. Etiam eget accumsan ante. Nulla erat neque, rutrum non finibus in, dictum nec urna.
+                </p>
+            </div>
+            <div>
+                <h2>Column 2</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet efficitur enim, a finibus augue. Nunc vehicula diam nisi, sit amet iaculis turpis faucibus ac. In sed quam in nunc auctor bibendum a eu turpis. Pellentesque convallis tincidunt pulvinar. Nam ut varius neque, ac aliquet augue. Aliquam tristique consequat faucibus. Sed sit amet rhoncus ex, in posuere lacus. Morbi sodales at ligula a eleifend. Etiam ac magna ac est consequat ultrices id consectetur lacus. Donec luctus, erat vel dignissim semper, tellus ante dapibus ipsum, a sollicitudin mi odio at magna. Sed euismod ipsum ornare felis rhoncus viverra. Nulla vitae metus iaculis, aliquet odio ut, dapibus enim. Praesent vehicula blandit ultricies. Aenean sed ullamcorper justo, eget volutpat libero. Etiam eget accumsan ante. Nulla erat neque, rutrum non finibus in, dictum nec urna.
+                </p>
+            </div>
+            <div>
+                <h2>Coumn 3</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet efficitur enim, a finibus augue. Nunc vehicula diam nisi, sit amet iaculis turpis faucibus ac. In sed quam in nunc auctor bibendum a eu turpis. Pellentesque convallis tincidunt pulvinar. Nam ut varius neque, ac aliquet augue. Aliquam tristique consequat faucibus. Sed sit amet rhoncus ex, in posuere lacus. Morbi sodales at ligula a eleifend. Etiam ac magna ac est consequat ultrices id consectetur lacus. Donec luctus, erat vel dignissim semper, tellus ante dapibus ipsum, a sollicitudin mi odio at magna. Sed euismod ipsum ornare felis rhoncus viverra. Nulla vitae metus iaculis, aliquet odio ut, dapibus enim. Praesent vehicula blandit ultricies. Aenean sed ullamcorper justo, eget volutpat libero. Etiam eget accumsan ante. Nulla erat neque, rutrum non finibus in, dictum nec urna.
+
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            Copyright 2020 All Rights Reserved
+        </div>
+        <script type="text/javascript">
+            function myFunctionOscuro(){
+                var element = document.getElementById("tema");
+                element.classList.remove("claro");
+                element.classList.add("oscuro");
+            }
+            function myFunctionClaro(){
+                var element = document.getElementById("tema");
+                element.classList.remove("oscuro");
+                element.classList.add("claro");
+            }
+        </script>
+    </body>
+</html>
+
